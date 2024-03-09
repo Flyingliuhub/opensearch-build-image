@@ -8,35 +8,35 @@ ci:
     name: opensearchstaging/ci-runner:ci-runner-rockylinux8-opensearch-dashboards-build-v1
 components:
   - name: OpenSearch-Dashboards
-    repository: https://github.com/opensearch-project/OpenSearch-Dashboards.git
-    ref: main
+    repository: https://github.com/BionIT/OpenSearch-Dashboards.git
+    ref: stylepicker
   - name: functionalTestDashboards
     repository: https://github.com/opensearch-project/opensearch-dashboards-functional-test.git
     ref: main
   - name: reportsDashboards
-    repository: https://github.com/opensearch-project/dashboards-reporting.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/dashboards-reporting.git
+    ref: pluginchange
   - name: securityDashboards
-    repository: https://github.com/opensearch-project/security-dashboards-plugin.git
-    ref: main
+    repository: https://github.com/BionIT/security-dashboards-plugin.git
+    ref: derek
   - name: queryWorkbenchDashboards
-    repository: https://github.com/opensearch-project/dashboards-query-workbench.git
-    ref: main
+    repository: https://github.com/BionIT/dashboards-query-workbench.git
+    ref: mdinteg
   - name: searchRelevanceDashboards
-    repository: https://github.com/opensearch-project/dashboards-search-relevance.git
-    ref: main
+    repository: https://github.com/sumukhswamy/dashboards-search-relevance.git
+    ref: multi-datasource
   - name: observabilityDashboards
-    repository: https://github.com/opensearch-project/dashboards-observability.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/dashboards-observability.git
+    ref: pluginchange
   - name: ganttChartDashboards
-    repository: https://github.com/opensearch-project/dashboards-visualizations.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/dashboards-visualizations.git
+    ref: pluginchange
   - name: assistantDashboards
     repository: https://github.com/opensearch-project/dashboards-assistant.git
     ref: main
   - name: notificationsDashboards
-    repository: https://github.com/opensearch-project/dashboards-notifications.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/dashboards-notifications.git
+    ref: pluginchange
   - name: customImportMapDashboards
     repository: https://github.com/opensearch-project/dashboards-maps.git
     ref: main
@@ -47,11 +47,12 @@ components:
     repository: https://github.com/opensearch-project/ml-commons-dashboards.git
     ref: main
   - name: indexManagementDashboards
-    repository: https://github.com/opensearch-project/index-management-dashboards-plugin.git
-    ref: main
+    repository: https://github.com/RamakrishnaChilaka/index-management-dashboards-plugin.git
+    ref: test-poc
   - name: alertingDashboards
-    repository: https://github.com/opensearch-project/alerting-dashboards-plugin.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/alerting-dashboards-plugin.git
+    ref: pluginchange
   - name: securityAnalyticsDashboards
-    repository: https://github.com/opensearch-project/security-analytics-dashboards-plugin.git
-    ref: main
+    repository: https://github.com/Flyingliuhub/security-analytics-dashboards-plugin.git
+    ref: pluginchange
+    
