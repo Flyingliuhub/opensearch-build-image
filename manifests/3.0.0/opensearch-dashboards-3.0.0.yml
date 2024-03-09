@@ -24,7 +24,7 @@ components:
     ref: mdinteg
   - name: searchRelevanceDashboards
     repository: https://github.com/sumukhswamy/dashboards-search-relevance.git
-    ref: multi-datasource
+    ref: main
   - name: observabilityDashboards
     repository: https://github.com/Flyingliuhub/dashboards-observability.git
     ref: pluginchange
@@ -55,4 +55,3 @@ components:
   - name: securityAnalyticsDashboards
     repository: https://github.com/Flyingliuhub/security-analytics-dashboards-plugin.git
     ref: pluginchange
-    
