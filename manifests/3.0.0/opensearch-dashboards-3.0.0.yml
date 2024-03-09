@@ -48,7 +48,7 @@ components:
     ref: main
   - name: indexManagementDashboards
     repository: https://github.com/RamakrishnaChilaka/index-management-dashboards-plugin.git
-    ref: test-poc
+    ref: main
   - name: alertingDashboards
     repository: https://github.com/Flyingliuhub/alerting-dashboards-plugin.git
     ref: pluginchange
