@@ -9,7 +9,7 @@ ci:
 components:
   - name: OpenSearch-Dashboards
     repository: ${OpenSearch-Dashboards_repository}
-    ref: $(OpenSearch-Dashboards_ref)
+    ref: ${OpenSearch-Dashboards_ref}
   - name: functionalTestDashboards
     repository: ${functionalTestDashboards_repository}
     ref: ${functionalTestDashboards_ref}
