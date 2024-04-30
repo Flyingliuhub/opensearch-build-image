@@ -8,6 +8,8 @@ ci:
     name: opensearchstaging/ci-runner:ci-runner-almalinux8-opensearch-dashboards-build-v1
 components:
   - name: OpenSearch-Dashboards
+    repository: https://github.com/opensearch-project/OpenSearch-Dashboards.git
+    ref: '2.14'
     repository: "${OpenSearch-Dashboards_repository}"
     ref: "${OpenSearch-Dashboards_ref}"
   - name: functionalTestDashboards
