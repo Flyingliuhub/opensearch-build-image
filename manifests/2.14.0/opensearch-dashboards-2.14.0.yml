@@ -13,30 +13,18 @@ components:
   - name: functionalTestDashboards
     repository: ${functionalTestDashboards_repository}
     ref: ${functionalTestDashboards_ref}
-  - name: reportsDashboards
-    repository: ${reportsDashboards_repository}
-    ref: ${reportsDashboards_ref}
-  - name: securityDashboards
-    repository: ${securityDashboards_repository}
-    ref: ${securityDashboards_ref}
-  - name: queryWorkbenchDashboards
-    repository: ${queryWorkbenchDashboards_repository}
-    ref: ${queryWorkbenchDashboards_ref}
-  - name: searchRelevanceDashboards
-    repository: ${searchRelevanceDashboards_repository}
-    ref: ${searchRelevanceDashboards_ref}
   - name: observabilityDashboards
     repository: ${observabilityDashboards_repository}
     ref: ${observabilityDashboards_ref}
+  - name: reportsDashboards
+    repository: ${reportsDashboards_repository}
+    ref: ${reportsDashboards_ref}
   - name: ganttChartDashboards
     repository: ${ganttChartDashboards_repository}
     ref: ${ganttChartDashboards_ref}
-  - name: assistantDashboards
-    repository: ${assistantDashboards_repository}
-    ref: ${assistantDashboards_ref}
-  - name: notificationsDashboards
-    repository: ${notificationsDashboards_repository}
-    ref: ${notificationsDashboards_ref}
+  - name: queryWorkbenchDashboards
+    repository: ${queryWorkbenchDashboards_repository}
+    ref: ${queryWorkbenchDashboards_ref}
   - name: customImportMapDashboards
     repository: ${customImportMapDashboards_repository}
     ref: ${customImportMapDashboards_ref}
@@ -49,9 +37,21 @@ components:
   - name: indexManagementDashboards
     repository: ${indexManagementDashboards_repository}
     ref: ${indexManagementDashboards_ref}
+  - name: notificationsDashboards
+    repository: ${notificationsDashboards_repository}
+    ref: ${notificationsDashboards_ref}
   - name: alertingDashboards
     repository: ${alertingDashboards_repository}
     ref: ${alertingDashboards_ref}
   - name: securityAnalyticsDashboards
     repository: ${securityAnalyticsDashboards_repository}
     ref: ${securityAnalyticsDashboards_ref}
+  - name: securityDashboards
+    repository: ${securityDashboards_repository}
+    ref: ${securityDashboards_ref}
+  - name: searchRelevanceDashboards
+    repository: ${searchRelevanceDashboards_repository}
+    ref: ${searchRelevanceDashboards_ref}
+  - name: assistantDashboards
+    repository: ${assistantDashboards_repository}
+    ref: ${assistantDashboards_ref}
