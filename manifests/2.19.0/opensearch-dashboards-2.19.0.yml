@@ -1,0 +1,57 @@
+---
+schema-version: '1.1'
+build:
+  name: OpenSearch Dashboards
+  version: 2.19.0
+ci:
+  image:
+    name: opensearchstaging/ci-runner:ci-runner-almalinux8-opensearch-dashboards-build-v1
+components:
+  - name: OpenSearch-Dashboards
+    repository: "${OpenSearch-Dashboards_repository}"
+    ref: "${OpenSearch-Dashboards_ref}"
+  - name: functionalTestDashboards
+    repository: "${functionalTestDashboards_repository}"
+    ref: "${functionalTestDashboards_ref}"
+  - name: observabilityDashboards
+    repository: "${observabilityDashboards_repository}"
+    ref: "${observabilityDashboards_ref}"
+  - name: reportsDashboards
+    repository: "${reportsDashboards_repository}"
+    ref: "${reportsDashboards_ref}"
+  - name: ganttChartDashboards
+    repository: "${ganttChartDashboards_repository}"
+    ref: "${ganttChartDashboards_ref}"
+  - name: queryWorkbenchDashboards
+    repository: "${queryWorkbenchDashboards_repository}"
+    ref: "${queryWorkbenchDashboards_ref}"
+  - name: customImportMapDashboards
+    repository: "${customImportMapDashboards_repository}"
+    ref: "${customImportMapDashboards_ref}"
+  - name: anomalyDetectionDashboards
+    repository: "${anomalyDetectionDashboards_repository}"
+    ref: "${anomalyDetectionDashboards_ref}"
+  - name: mlCommonsDashboards
+    repository: "${mlCommonsDashboards_repository}"
+    ref: "${mlCommonsDashboards_ref}"
+  - name: indexManagementDashboards
+    repository: "${indexManagementDashboards_repository}"
+    ref: "${indexManagementDashboards_ref}"
+  - name: notificationsDashboards
+    repository: "${notificationsDashboards_repository}"
+    ref: "${notificationsDashboards_ref}"
+  - name: alertingDashboards
+    repository: "${alertingDashboards_repository}"
+    ref: "${alertingDashboards_ref}"
+  - name: securityAnalyticsDashboards
+    repository: "${securityAnalyticsDashboards_repository}"
+    ref: "${securityAnalyticsDashboards_ref}"
+  - name: securityDashboards
+    repository: "${securityDashboards_repository}"
+    ref: "${securityDashboards_ref}"
+  - name: searchRelevanceDashboards
+    repository: "${searchRelevanceDashboards_repository}"
+    ref: "${searchRelevanceDashboards_ref}"
+  - name: assistantDashboards
+    repository: "${assistantDashboards_repository}"
+    ref: "${assistantDashboards_ref}"
