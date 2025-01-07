@@ -55,3 +55,6 @@ components:
   - name: assistantDashboards
     repository: "${assistantDashboards_repository}"
     ref: "${assistantDashboards_ref}"
+  - name: flowFrameworkDashboards
+    repository: "${flowFrameworkDashboards_repository}"
+    ref: "${flowFrameworkDashboards_ref}"
