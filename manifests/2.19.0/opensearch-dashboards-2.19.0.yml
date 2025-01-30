@@ -58,3 +58,6 @@ components:
   - name: flowFrameworkDashboards
     repository: "${flowFrameworkDashboards_repository}"
     ref: "${flowFrameworkDashboards_ref}"
+  - name: queryInsightsDashboards
+    repository: "${queryInsightsDashboards_repository}"
+    ref: "${queryInsightsDashboards_ref}"
