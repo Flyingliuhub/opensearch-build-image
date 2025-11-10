@@ -55,3 +55,9 @@ components:
   - name: securityAnalyticsDashboards
     repository: ${securityAnalyticsDashboards_repository}
     ref: ${securityAnalyticsDashboards_ref}
+  - name: flowFrameworkDashboards
+    repository: ${flowFrameworkDashboards_repository}
+    ref: ${flowFrameworkDashboards_ref}
+  - name: queryInsightsDashboards
+    repository: ${queryInsightsDashboards_repository}
+    ref: ${queryInsightsDashboards_ref}
